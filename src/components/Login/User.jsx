@@ -1,10 +1,15 @@
 import React from "react";
 
-const User = () => {
+const User = ({ setUser }) => {
+    const onUserCompleted = (e) => {
+        setUser(e.target.value)
+        console.log(e.target.value)
+    }
+
     return(
         <div>
             User
-            <input type="text" />
+            <input type="text" onBlur={onUserCompleted} />
         </div>
     )
 }

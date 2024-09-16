@@ -1,10 +1,15 @@
 import React from "react";
 
-const Password = () => {
+const Password = ({ setPassword }) => {
+
+    const onPasswordChange = (e) => {
+        console.log(e.target.value)
+    }
+    
     return(
         <div>
             Password
-            <input type="password" />
+            <input type="password" onChange={onPasswordChange} />
         </div>
     )
 }
