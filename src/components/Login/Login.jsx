@@ -1,8 +1,13 @@
 import React from "react";
+import User from "./user";
+import Password from "./Password";
 
 const Login = () => {
     return(
-        <>Log in</>
+        <div>
+            <User />
+            <Password />
+        </div>
     )
 };
 
