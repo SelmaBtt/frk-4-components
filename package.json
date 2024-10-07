@@ -1,7 +1,7 @@
 {
-  "name": "@jennystarkfrk/components",
+  "name": "@selmabtt/frk23-4-components-lek",
   "private": false,
-  "version": "0.0.9",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

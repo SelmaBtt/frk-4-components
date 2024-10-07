@@ -1,5 +1,5 @@
 import Popup from "./Popup"
-import products from '../../../../../public/api/product.json'
+import products from '../../../../public/api/product.json'
 
 export default {
     title: 'FRK/Popup/version_1',
