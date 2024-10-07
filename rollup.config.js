@@ -52,5 +52,10 @@ export default {
       presets: ['@babel/preset-env', '@babel/preset-react']
     }),
   ],
-  external: Object.keys(pkg.peerDependencies || {})
+  external: [
+    'react', 
+    'react-dom', 
+    'react-router-dom', 
+    ...Object.keys(pkg.peerDependencies || {}) // Dynamically include all peer dependencies
+  ],
 };
